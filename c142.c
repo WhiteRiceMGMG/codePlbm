@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.c>
+#include <stdlib.h>
 int main(void)
 {
     char wantEatStr[11] = "";
