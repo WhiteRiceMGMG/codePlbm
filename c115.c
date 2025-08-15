@@ -12,12 +12,12 @@ int main(void)
     
     betweenCar = (int*)malloc(sizeof(int) * (n-1));
     
-    for(i = 0; i < n; i++)
+    for(i = 0; i < n - 1; i++)
     {
         scanf("%d", &betweenCar[i]);
     }
 
-    for(i = 0; i < n; i++)
+    for(i = 0; i < n - 1; i++)
     {
         if(betweenCar[i] < m)
         {
