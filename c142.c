@@ -7,7 +7,7 @@ int main(void)
     char* menuList = "";
 
     scanf("%s", wantEatStr);
-    scanf("%d", menuNum);
+    scanf("%d", &menuNum);
 
     menuList = (char*)malloc(sizeof(char) * 10 * menuNum);
     free(menuList);
