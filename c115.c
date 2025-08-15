@@ -15,6 +15,15 @@ int main(void)
     {
         scanf("%d", &betweenCar[i]);
     }
-    
 
+    for(i = 0; i < n; i++)
+    {
+        if(betweenCar[i] < m)
+        {
+            sum += betweenCar[i];
+        }
+    }
+    printf("%d", sum);
+    
+    return 0;
 }
