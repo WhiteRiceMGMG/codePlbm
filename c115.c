@@ -9,7 +9,8 @@ int main(void)
     betweenCar = (int*)malloc(sizeof(int) * (n-1));
     for(i = 0; i < n; i++)
     {
-        
+        scanf("%d", &betweenCar[i]);
     }
+    
 
 }
