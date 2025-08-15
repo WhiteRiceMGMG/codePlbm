@@ -8,7 +8,7 @@ int main(void)
     int sum = 0;
     int* betweenCar;
 
-    scanf("%d &d", &n, &m);
+    scanf("%d %d", &n, &m);
     
     betweenCar = (int*)malloc(sizeof(int) * (n-1));
     
