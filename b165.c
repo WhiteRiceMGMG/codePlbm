@@ -63,7 +63,96 @@ int main(void)
                         
                         status[j][k-1] = 'B';
                     } else
+                    if((j == 0) && (k != 0) && (k != w) && (status[j][k-1] == '#'))
+                    {
+                        
+                        status[j][k-1] = 'B';
+                    } else
+                    if((j == 0) && (k != 0) && (k != w) && (status[j][k+1] == '#'))
+                    {
+                        
+                        status[j][k+1] = 'B';
+                    } else
+                    if((j == 0) && (k != 0) && (k != w) && (status[j+1][k] == '#'))
+                    {
+                        
+                        status[j+1][k] = 'B';
+                    } else
+                    if((j == h) && (k != 0) && (k != w) && (status[j][k-1] == '#'))
+                    {
+                        
+                        status[j][k-1] = 'B';
+                    } else
+                    if((j == h) && (k != 0) && (k != w) && (status[j][k+1] == '#'))
+                    {
+                        
+                        status[j][k+1] = 'B';
+                    } else
+                    if((j == h) && (k != 0) && (k != w) && (status[j-1][k] == '#'))
+                    {
+                        
+                        status[j-1][k] = 'B';
+                    } else
+
+                    if((j != 0) && (j != h) && (k == 0) && (status[j-1][k] == '#'))
+                    {
+                        
+                        status[j-1][k] = 'B';
+                    } else
+                    if((j != 0) && (j != h) && (k == 0) && (status[j+1][k] == '#'))
+                    {
+                        
+                        status[j+1][k] = 'B';
+                    } else
+                    if((j != 0) && (j != h) && (k == 0) && (status[j][k+1] == '#'))
+                    {
+                        
+                        status[j][k+1] = 'B';
+                    } else
+
+                    if((j != 0) && (j != h) && (k == w) && (status[j-1][k] == '#'))
+                    {
+                        
+                        status[j-1][k] = 'B';
+                    } else
+                    if((j != 0) && (j != h) && (k == w) && (status[j+1][k] == '#'))
+                    {
+                        
+                        status[j+1][k] = 'B';
+                    } else
+                    if((j != 0) && (j != h) && (k == w) && (status[j][k-1] == '#'))
+                    {
+                        
+                        status[j][k-1] = 'B';
+                    } else
+
+                    if(status[j][k+1] == '#'))
+                    {
+                        
+                        status[j][k+1] = 'B';
+                    } else
+                    if(status[j][k-1] == '#'))
+                    {
+                        
+                        status[j][k-1] = 'B';
+                    } else
+                    if(status[j-1][k] == '#'))
+                    {
+                        
+                        status[j-1][k] = 'B';
+                    } else
+                    if(status[j+1][k] == '#'))
+                    {
+                        
+                        status[j+1][k] = 'B';
+                    } else
+
+
+
+
+                    
                 }
+
                  
             }
         }
