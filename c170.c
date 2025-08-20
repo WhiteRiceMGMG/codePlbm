@@ -16,6 +16,8 @@ int main(void)
     for(i = 0; i < n; i++)
     {
         point = array[i] / 100;
-        sum += point 
+        sum += point;
     }
+    printf("%d", m - sum);
+    return 0;
 }
