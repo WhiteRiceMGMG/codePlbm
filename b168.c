@@ -55,7 +55,6 @@ int main(void)
                 aTemp = checkCalcResult(i, aNumList);
                 bTemp = checkCalcResult(j, bNumList);
                 cTemp = checkCalcResult(k, cNumList);
-                printf("%d %d %d", aTemp, bTemp, cTemp);
                 if((aTemp == bTemp) && (bTemp == cTemp))
                 {
                     sumList[sumNum] = aTemp;
