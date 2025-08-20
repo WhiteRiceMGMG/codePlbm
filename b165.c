@@ -146,15 +146,17 @@ int main(void)
                         
                         status[j+1][k] = 'B';
                     } else
-
-
-
-
-                    
                 }
-
-                 
             }
         }
     }
+    for(i = 0; i < h; i++)
+    {
+        for(j = 0; j < w; j++)
+        {
+            printf("%c", status[i][j])
+        }
+        printf("\n")
+    }
+    return 0;
 }
