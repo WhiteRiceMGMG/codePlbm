@@ -18,6 +18,6 @@ int main(void)
         point = array[i] / 100;
         sum += point;
     }
-    printf("%d", m - sum);
+    printf("%d", (m - sum));
     return 0;
 }
