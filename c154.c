@@ -23,7 +23,12 @@ int main(void)
         }   
     }
     
-    for()
+    for(i = 0; i < n; i++)
+    {
+        sum += array[i];
+    }
+
+    sum -= max;
 
     if((max / 2) < l)
     {
@@ -31,8 +36,12 @@ int main(void)
     }else
     if((max / 2) >= l)
     {
-        max = 
+        max = l;
     }
+
+    sum = sum + max;
+    printf("%d", max);
+    return 0;
 
 
  
