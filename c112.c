@@ -4,7 +4,7 @@ int main(void)
     int n = 0;
     int i = 0;
     int j = 0;
-    int min = 0;
+    int min = 0;0
     int max = 0;
     int tmp = 0;
     int array[100][3] = {0};
