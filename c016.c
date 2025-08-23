@@ -18,7 +18,7 @@ int main(void)
         {
             if(c == conpile[i][0])
             {
-                str[i] = conpile[i][1];
+                str[j] = conpile[i][1];
             }
         }
         j++;
