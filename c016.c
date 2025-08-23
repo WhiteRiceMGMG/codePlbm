@@ -3,6 +3,7 @@ int main(void)
 {
     int i = 0;
     int j = 0;
+    char c = "a"
     char str[100] = "";
     scanf("%s", str);
     char conpile[7][3] = 
